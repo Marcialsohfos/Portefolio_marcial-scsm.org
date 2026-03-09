@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application de gestion des doublons - Marcial SOH</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Application de gestion des doublons</h1>
+            <p>Qualité des données - MINSANTE</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="back-link">
+            <a href="../index.html">← Retour à l'accueil</a>
+        </div>
+
+        <div class="project-detail">
+            <img src="../assets/images/projets/doublons.jpg" alt="Interface de l'application anti-doublons">
+
+            <h2>Contexte</h2>
+            <p>Les grandes bases de données de laboratoires souffraient d'un problème récurrent de doublons, rendant les analyses peu fiables et compliquant le suivi des infrastructures. La détection manuelle était impossible face au volume de données (plus de 50 000 enregistrements).</p>
+
+            <h2>Problématique</h2>
+            <ul>
+                <li>Des milliers d'enregistrements avec des doublons potentiels</li>
+                <li>Différentes sources de données avec des formats variés</li>
+                <li>Nécessité de préserver l'intégrité des données originales</li>
+                <li>Contraintes de temps pour le nettoyage</li>
+            </ul>
+
+            <h2>Solution développée</h2>
+            <p>J'ai conçu et développé une <strong>application spécialisée</strong> qui :</p>
+            <ol>
+                <li><strong>Identifie les doublons</strong> grâce à des algorithmes de matching fuzzy</li>
+                <li><strong>Propose des regroupements</strong> intelligents basés sur plusieurs critères</li>
+                <li><strong>Permet la validation</strong> par un opérateur avant fusion</li>
+                <li><strong>Conserve un historique</strong> des modifications</li>
+                <li><strong>Génère des rapports</strong> de qualité des données</li>
+            </ol>
+
+            <h2>Algorithmes utilisés</h2>
+            <ul>
+                <li><strong>Similarité de Levenshtein</strong> pour les chaînes de caractères</li>
+                <li><strong>Matching géographique</strong> pour les coordonnées proches</li>
+                <li><strong>Règles métier</strong> spécifiques aux laboratoires</li>
+                <li><strong>Apprentissage automatique</strong> (Random Forest) pour améliorer la précision</li>
+                <li><strong>Détection phonétique</strong> (Soundex, Metaphone) pour les noms</li>
+            </ul>
+
+            <h2>Interface utilisateur</h2>
+            <ul>
+                <li>Tableau de bord avec métriques de qualité</li>
+                <li>Visualisation des clusters de doublons</li>
+                <li>Validation en un clic des fusions proposées</li>
+                <li>Mode batch pour les gros volumes</li>
+                <li>Export des données nettoyées</li>
+            </ul>
+
+            <h2>Technologies utilisées</h2>
+            <div class="skills-tags">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Django</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">Pandas</span>
+                <span class="skill-tag">Scikit-learn</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">D3.js</span>
+            </div>
+
+            <!-- SECTION POUR INSÉRER VOS LIENS -->
+            <div class="app-links">
+                <h3>Accéder à l'application</h3>
+                <p>Application de démonstration :</p>
+                <a href="https://gestion-doublons-demo.netlify.app" target="_blank">Tester la démo</a>
+                <a href="https://github.com/votreusername/gestion-doublons" target="_blank">Code source</a>
+                <a href="https://gestion-doublons-documentation.netlify.app" target="_blank">Documentation technique</a>
+            </div>
+
+            <h2>Résultats chiffrés</h2>
+            <ul>
+                <li><strong>98% des doublons détectés</strong> (précision mesurée sur un échantillon test)</li>
+                <li><strong>5 342 doublons identifiés</strong> dans la base principale</li>
+                <li><strong>Gain de temps</strong> : 3 mois de travail manuel évités</li>
+                <li><strong>Qualité des données</strong> : Augmentation de 35% de la confiance dans les données</li>
+            </ul>
+
+            <h2>Captures d'écran</h2>
+            <img src="../assets/images/projets/doublons-dashboard.jpg" alt="Dashboard de qualité">
+            <img src="../assets/images/projets/doublons-validation.jpg" alt="Interface de validation">
+            
+            <div class="back-link">
+                <a href="../index.html">← Retour à l'accueil</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Marcial SOH - Data Management Specialist</p>
+        </div>
+    </footer>
+</body>
+</html>
